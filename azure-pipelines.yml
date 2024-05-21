@@ -85,8 +85,8 @@ stages:
     - task: Veracode@3
       inputs:
         ConnectionDetailsSelection: 'Credentials'
-        apiId: '$(VeracodeID)'
-        apiKey: '$(VeracodeKey)'
+        apiId: '$(61f585a5cb05d6c92de38388f2b7874c)'
+        apiKey: '$(a00b29c073e90a75b5f5b0287a575a4085b91a8e2f12def349ee808a5b88580c6e2b99496d8439f01228f2e43f9ee514a15ac65468f1203a1203bc604d5b0b30)'
         veracodeAppProfile: '$(veracodeAppProfile)'
         version: '$(build.buildNumber)'
         filepath: '$(caminhoPacote)'
